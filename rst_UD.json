@@ -4,13 +4,13 @@
         "049fb38257e262aa2f056b9659850a49"
       ],
       "end": "Бессрочно",
-      "isOK": 1
+      "isOK": true
     },
     {
       "IDs": [
         "4f6b11a0dbca3060304cc5f6899c4f71"
       ],
       "end": "2021-05",
-      "isOK": 1
+      "isOK": true
     }
   ]
