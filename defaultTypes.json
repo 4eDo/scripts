@@ -35,28 +35,28 @@
       "Price": 5000
     },
     {
-      "OwnerId": 3,
+      "OwnerId": 2,
       "Name": "Стрижка мужская",
       "Dur_hh": 0,
       "Dur_mm": 30,
       "Price": 200
     },
     {
-      "OwnerId": 3,
+      "OwnerId": 2,
       "Name": "Стрижка женская",
       "Dur_hh": 1,
       "Dur_mm": 30,
       "Price": 1200
     },
     {
-      "OwnerId": 3,
+      "OwnerId": 2,
       "Name": "Причёска",
       "Dur_hh": 3,
       "Dur_mm": 0,
       "Price": 7000
     },
     {
-      "OwnerId": 3,
+      "OwnerId": 2,
       "Name": "Окрашивание волос",
       "Dur_hh": 1,
       "Dur_mm": 45,
