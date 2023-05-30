@@ -14,4 +14,7 @@
         if(!$("body > main > div > h2:contains('add')").length == 0 && document.getElementById('postamattable')){ 
             document.querySelector("body > main > div > h2").innerText = "Добавить постамат";
         }
+        if(document.querySelector("body > main > section > p") && document.querySelector("body > main > section > p").innerText.indexOf("ИЗМЕНЕНИЕ КОММЕНТАРИЯ К ТИКЕТУ") != -1) {
+            document.querySelector("#comment").setAttribute("style", "width: 450px; height: 350px;");
+        }
     });
