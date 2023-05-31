@@ -18,6 +18,6 @@
             document.querySelector("#comment").setAttribute("style", "width: 450px; height: 350px;");
         }
         if(document.querySelector("body > main > section > form > p:nth-child(4)") && document.querySelector("body > main > section > p").innerText.indexOf("ИМПОРТ СООБЩЕНИЙ ПРИ ПОМОЩИ CSV ФАЙЛА") != -1) {
-            document.querySelector("body > main > section > form > p:nth-child(4)").innerText += "; Кодировка UTF-8 с BOM";
+            document.querySelector("body > main > section > form > p:nth-child(4)").innerHTML += "; Кодировка UTF-8 с BOM</p><p>Обработка файла займёт некоторое время. Пожалуйста, дождитесь, пока вас система не вернёт сама на страницу сообщений!";
         }
     });
