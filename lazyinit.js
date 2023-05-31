@@ -17,4 +17,7 @@
         if(document.querySelector("body > main > section > p") && document.querySelector("body > main > section > p").innerText.indexOf("ИЗМЕНЕНИЕ КОММЕНТАРИЯ К ТИКЕТУ") != -1) {
             document.querySelector("#comment").setAttribute("style", "width: 450px; height: 350px;");
         }
+        if(document.querySelector("body > main > section > form > p:nth-child(4)") && document.querySelector("body > main > section > p").innerText.indexOf("ИМПОРТ СООБЩЕНИЙ ПРИ ПОМОЩИ CSV ФАЙЛА") != -1) {
+            document.querySelector("body > main > section > form > p:nth-child(4)").innerText += "; Кодировка UTF-8 с BOM";
+        }
     });
