@@ -18,6 +18,6 @@
             document.querySelector("#comment").setAttribute("style", "width: 450px; height: 350px;");
         }
         if(document.querySelector("body > main > section > form > p:nth-child(4)") && document.querySelector("body > main > section > p").innerText.indexOf("ИМПОРТ СООБЩЕНИЙ ПРИ ПОМОЩИ CSV ФАЙЛА") != -1) {
-            document.querySelector("body > main > section > form > p:nth-child(4)").innerHTML = "Вес файла не должен превышать 15 МБ; рекомендуемый вес - 2 МБ; Кодировка UTF-8 с BOM или Windows-1251</p><p>Обработка файла займёт некоторое время. Пожалуйста, дождитесь, пока вас система не вернёт сама на страницу сообщений!";
+            document.querySelector("body > main > section > form > p:nth-child(4)").innerHTML = "Вес файла не должен превышать 10 МБ; рекомендуемый вес - 2 МБ; Кодировка UTF-8 с BOM или Windows-1251</p><p>Обработка файла займёт некоторое время. Пожалуйста, дождитесь, пока вас система не вернёт сама на страницу сообщений!";
         }
     });
